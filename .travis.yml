@@ -17,6 +17,6 @@ deploy:
   bucket_name: "elasticbeanstalk-us-east-2-211493313435"
   bucket_path: "dokcer-react"
   on:
-    branch:master
-  access_key_id: "AKIATCPP33ON34OTWKBB"
-  secret_access_key: "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"
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
